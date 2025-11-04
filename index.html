@@ -1,95 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
   <title>Privacy Policy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #1d1d1f;
+      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1d1d1f;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #2c2c2e;
+      margin: 2rem 0 1rem 0;
+      letter-spacing: -0.01em;
+    }
+
+    .meta {
+      background: rgba(0, 122, 255, 0.08);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 4px solid #007AFF;
+    }
+
+    .meta p {
+      margin: 0.5rem 0;
+      font-weight: 500;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #3a3a3c;
+    }
+
+    ul {
+      margin: 1rem 0;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+      color: #3a3a3c;
+      line-height: 1.6;
+    }
+
+    li::marker {
+      color: #007AFF;
+    }
+
+    a {
+      color: #007AFF;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    a:hover {
+      color: #0051D0;
+      text-decoration: underline;
+    }
+
+    strong {
+      font-weight: 600;
+      color: #1d1d1f;
+    }
+
+    em {
+      font-style: italic;
+      color: #6a6a6c;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      body {
+        padding: 15px;
+      }
+
+      .container {
+        padding: 25px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+      }
+    }
+
+    /* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+      }
+
+      .container {
+        background: rgba(28, 28, 30, 0.95);
+        color: #f2f2f7;
+      }
+
+      h1,
+      h2,
+      strong {
+        color: #f2f2f7;
+      }
+
+      p,
+      li {
+        color: #d1d1d6;
+      }
+
+      .meta {
+        background: rgba(0, 122, 255, 0.15);
+        border-left-color: #0A84FF;
+      }
+
+      a {
+        color: #0A84FF;
+      }
+
+      a:hover {
+        color: #409CFF;
+      }
+
+      em {
+        color: #98989d;
+      }
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Selection styling */
+    ::selection {
+      background: rgba(0, 122, 255, 0.2);
+    }
+  </style>
 </head>
+
 <body>
- <p>&nbsp;</p>
-<p>Privacy Policy &mdash; BubbleBabble</p>
-<h1>Privacy Policy &mdash; BubbleBabble</h1>
-<div class="meta">
-<p><strong>Last updated:</strong> 22 October 2025</p>
-<p><strong>Publisher:</strong> BubbleBabble (published by Maksym Yan, Individual)</p>
-<p><strong>Country:</strong> Netherlands</p>
-<p><strong>Contact email:</strong> <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a></p>
-</div>
-<h2>Introduction</h2>
-<p>BubbleBabble (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) respects your privacy. This Privacy Policy explains what information the BubbleBabble mobile application (the &ldquo;App&rdquo;) collects, how we use it, who we share it with, and the choices you have. By downloading or using the App you agree to the collection and use of information described in this policy.</p>
-<h2>Summary (short)</h2>
-<ul>
-<li>We do not require or offer user registration / login in the App.</li>
-<li>We do not intentionally collect personal data such as name, email, phone number, contacts, camera photos, or GPS location.</li>
-<li>The App integrates third-party SDKs (Google AdMob, Firebase / Google Analytics) that may automatically collect device and usage data for analytics, crash reporting and advertising.</li>
-<li>If we later add subscription, login, or other features that collect personal data, we will update this Privacy Policy and notify users.</li>
-</ul>
-<h2>1. Data controller</h2>
-<p>The data controller for the App is:<br /> Maksym Yan (Individual), Netherlands.<br /> For questions about this policy or to exercise your privacy rights, contact: <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a>.</p>
-<h2>2. Information we do NOT collect</h2>
-<p>The App does not collect personal information directly from you via registration, forms, or chat. Specifically, the App does not request or store:</p>
-<ul>
-<li>Name, email address, postal address, telephone number;</li>
-<li>Contacts, calendar entries, photos or camera input;</li>
-<li>GPS or other precise location data;</li>
-<li>Payment card data (no subscriptions or purchases in the initial release).</li>
-</ul>
-<h2>3. Information collected automatically by third parties</h2>
-<p>While we do not collect personal data directly, third-party services integrated into the App may automatically collect certain technical and usage information. This may include:</p>
-<ul>
-<li>Device information (device type/model, OS version, device identifiers such as Advertising ID (IDFA on iOS / AAID on Android) where permitted by the platform and user consent);</li>
-<li>App usage and engagement data (app launches, session length, screens viewed, events);</li>
-<li>Crash and performance data (error logs, stack traces, device configuration);</li>
-<li>Network and log data (IP address, timestamps).</li>
-</ul>
-<p>These data are collected by third-party providers under their own privacy policies (links below). We use such data solely for analytics, crash fixing, ad delivery and measurement, and product improvement.</p>
-<p><strong>Third-party services used:</strong></p>
-<ul>
-<li>Google AdMob (ads &amp; ad measurement) &mdash; <a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">https://support.google.com/admob/answer/6128543?hl=en</a></li>
-<li>Firebase / Google Analytics (analytics &amp; crash reporting) &mdash; <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
-</ul>
-<p><em>Note:</em> the exact data collected and how it is used is controlled by these third parties and may change; please consult their privacy policies for details. We do not combine advertising identifiers with other personally identifying information collected outside these SDKs.</p>
-<h2>4. Use of data</h2>
-<ul>
-<li>To analyze and improve the App (analytics, product improvements, crash diagnostics).</li>
-<li>To deliver and measure the performance of ads served via Google AdMob.</li>
-<li>To detect, prevent and respond to fraud, abuse, technical issues or legal claims.</li>
-</ul>
-<p>We do not use collected data for purposes unrelated to analytics or advertising without explicit consent.</p>
-<h2>5. Advertising, tracking and choices</h2>
-<p><strong>Advertising identifiers &amp; ATT (iOS):</strong> On iOS, the App may access the advertising identifier (IDFA) only if you permit tracking via the App Tracking Transparency (ATT) prompt. If you deny consent, the advertising identifier will not be available for personalized advertising.</p>
-<p><strong>Personalized ads &amp; opt-out:</strong> To limit interest-based ads served by Google, users may visit <a href="https://adssettings.google.com/" target="_blank">Google&rsquo;s ad settings</a>.</p>
-<p><strong>Device controls:</strong> You can reset or limit advertising identifiers in your device settings (iOS and Android). These actions affect ad personalization across apps.</p>
-<p><strong>Cookies &amp; local storage:</strong> The App itself does not set browser cookies. Third-party SDKs may store identifiers or local data for analytics and ad delivery as described in their policies.</p>
-<h2>6. Data retention</h2>
-<p>We retain aggregated analytics and crash reports for as long as reasonably required to improve and operate the App. Retention periods for data held by third-party providers are set by those providers. To request removal of data held by third-party providers, please contact <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a> and we will assist or direct you to the appropriate provider process.</p>
-<h2>7. Sharing and disclosure</h2>
-<p>We do not sell personal data. We may share aggregated, non-identifying analytics with service providers or ad partners to evaluate app performance. We may disclose information when required by law, to protect rights, or to investigate fraud or security issues.</p>
-<h2>8. Security</h2>
-<p>We implement commercially reasonable administrative, technical and physical safeguards to protect data. However, no transmission over the Internet or method of storage is completely secure. We cannot guarantee absolute security.</p>
-<h2>9. Children</h2>
-<p>The App is not directed to children under 13 (or the minimum age in your jurisdiction). We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information, please contact us at <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a> and we will take prompt steps to delete such information.</p>
-<h2>10. Your rights (EEA/GDPR, UK and similar)</h2>
-<ul>
-<li>Access: request confirmation whether we process your personal data and a copy of such data;</li>
-<li>Rectification: request correction of inaccurate data;</li>
-<li>Erasure: request deletion of personal data we control (subject to legal limitations);</li>
-<li>Restriction: request restriction of processing;</li>
-<li>Data portability: request a copy of the personal data you provided to us in a structured, machine-readable format;</li>
-<li>Withdraw consent: where processing is based on consent, you may withdraw that consent;</li>
-<li>Lodge a complaint with your local data protection authority.</li>
-</ul>
-<p>Because BubbleBabble does not collect personal data directly in most cases, many requests will involve data held by third parties (e.g., Google). We will assist you by indicating what data we hold and, where feasible, help you contact the third-party provider to exercise your rights.</p>
-<p>To exercise your rights, contact us at: <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a>. Please provide sufficient information to enable us to locate any relevant data (device details, approximate time of use, description of request).</p>
-<h2>11. International transfers</h2>
-<p>Third-party providers (such as Google) may transfer and store data in countries outside your jurisdiction. These transfers are governed by the providers&rsquo; privacy policies and applicable legal safeguards. By using the App you consent to such transfers as described by the third parties.</p>
-<h2>12. Changes to this Privacy Policy</h2>
-<p>We may update this Privacy Policy periodically. The &ldquo;Last updated&rdquo; date at the top reflects the effective date. If we make material changes, we will post the updated Policy and, where appropriate, notify users via the App or other reasonable means.</p>
-<h2>13. Subscriptions, payments and future features</h2>
-<p>At the time of publication the App does not offer subscriptions or in-app purchases. If we introduce subscriptions or other features that require collecting payment or additional personal data, we will update this Privacy Policy before making those features available and will disclose what new data is collected and how it is used.</p>
-<h2>14. Third-party links</h2>
-<p>The App may include links to third-party websites or content. We are not responsible for the privacy practices or content of those sites. Review third-party privacy policies before providing any personal information.</p>
-<h2>15. Contact</h2>
-<p>For any questions, to exercise rights, or to report concerns, contact:<br /> <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a></p>
+  <div class="container">
+    <p>&nbsp;</p>
+    <p>Privacy Policy — BubbleBabble</p>
+    <h1>Privacy Policy — BubbleBabble</h1>
+    <div class="meta">
+      <p><strong>Last updated:</strong> 22 October 2025</p>
+      <p><strong>Publisher:</strong> BubbleBabble (published by Maksym Yan, Individual)</p>
+      <p><strong>Country:</strong> Netherlands</p>
+      <p><strong>Contact email:</strong> <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a></p>
+    </div>
+    <h2>Introduction</h2>
+    <p>BubbleBabble (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) respects your privacy. This Privacy Policy
+      explains what information the BubbleBabble mobile application (the &ldquo;App&rdquo;) collects, how we use it, who
+      we share it with, and the choices you have. By downloading or using the App you agree to the collection and use of
+      information described in this policy.</p>
+    <h2>Summary (short)</h2>
+    <ul>
+      <li>We do not require or offer user registration / login in the App.</li>
+      <li>We do not intentionally collect personal data such as name, email, phone number, contacts, camera photos, or
+        GPS location.</li>
+      <li>The App integrates third-party SDKs (Google AdMob, Firebase / Google Analytics) that may automatically collect
+        device and usage data for analytics, crash reporting and advertising.</li>
+      <li>If we later add subscription, login, or other features that collect personal data, we will update this Privacy
+        Policy and notify users.</li>
+    </ul>
+    <h2>1. Data controller</h2>
+    <p>The data controller for the App is:<br /> Maksym Yan (Individual), Netherlands.<br /> For questions about this
+      policy or to exercise your privacy rights, contact: <a
+        href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a>.</p>
+    <h2>2. Information we do NOT collect</h2>
+    <p>The App does not collect personal information directly from you via registration, forms, or chat. Specifically,
+      the App does not request or store:</p>
+    <ul>
+      <li>Name, email address, postal address, telephone number;</li>
+      <li>Contacts, calendar entries, photos or camera input;</li>
+      <li>GPS or other precise location data;</li>
+      <li>Payment card data (no subscriptions or purchases in the initial release).</li>
+    </ul>
+    <h2>3. Information collected automatically by third parties</h2>
+    <p>While we do not collect personal data directly, third-party services integrated into the App may automatically
+      collect certain technical and usage information. This may include:</p>
+    <ul>
+      <li>Device information (device type/model, OS version, device identifiers such as Advertising ID (IDFA on iOS /
+        AAID on Android) where permitted by the platform and user consent);</li>
+      <li>App usage and engagement data (app launches, session length, screens viewed, events);</li>
+      <li>Crash and performance data (error logs, stack traces, device configuration);</li>
+      <li>Network and log data (IP address, timestamps).</li>
+    </ul>
+    <p>These data are collected by third-party providers under their own privacy policies (links below). We use such
+      data solely for analytics, crash fixing, ad delivery and measurement, and product improvement.</p>
+    <p><strong>Third-party services used:</strong></p>
+    <ul>
+      <li>Google AdMob (ads &amp; ad measurement) &mdash; <a
+          href="https://support.google.com/admob/answer/6128543?hl=en"
+          target="_blank"
+        >https://support.google.com/admob/answer/6128543?hl=en</a></li>
+      <li>Firebase / Google Analytics (analytics &amp; crash reporting) &mdash; <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+        >https://policies.google.com/privacy</a></li>
+    </ul>
+    <p><em>Note:</em> the exact data collected and how it is used is controlled by these third parties and may change;
+      please consult their privacy policies for details. We do not combine advertising identifiers with other personally
+      identifying information collected outside these SDKs.</p>
+    <h2>4. Use of data</h2>
+    <ul>
+      <li>To analyze and improve the App (analytics, product improvements, crash diagnostics).</li>
+      <li>To deliver and measure the performance of ads served via Google AdMob.</li>
+      <li>To detect, prevent and respond to fraud, abuse, technical issues or legal claims.</li>
+    </ul>
+    <p>We do not use collected data for purposes unrelated to analytics or advertising without explicit consent.</p>
+    <h2>5. Advertising, tracking and choices</h2>
+    <p><strong>Advertising identifiers &amp; ATT (iOS):</strong> On iOS, the App may access the advertising identifier
+      (IDFA) only if you permit tracking via the App Tracking Transparency (ATT) prompt. If you deny consent, the
+      advertising identifier will not be available for personalized advertising.</p>
+    <p><strong>Personalized ads &amp; opt-out:</strong> To limit interest-based ads served by Google, users may visit <a
+        href="https://adssettings.google.com/"
+        target="_blank"
+      >Google&rsquo;s ad settings</a>.</p>
+    <p><strong>Device controls:</strong> You can reset or limit advertising identifiers in your device settings (iOS and
+      Android). These actions affect ad personalization across apps.</p>
+    <p><strong>Cookies &amp; local storage:</strong> The App itself does not set browser cookies. Third-party SDKs may
+      store identifiers or local data for analytics and ad delivery as described in their policies.</p>
+    <h2>6. Data retention</h2>
+    <p>We retain aggregated analytics and crash reports for as long as reasonably required to improve and operate the
+      App. Retention periods for data held by third-party providers are set by those providers. To request removal of
+      data held by third-party providers, please contact <a
+        href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a> and we will assist or direct you to the
+      appropriate provider process.</p>
+    <h2>7. Sharing and disclosure</h2>
+    <p>We do not sell personal data. We may share aggregated, non-identifying analytics with service providers or ad
+      partners to evaluate app performance. We may disclose information when required by law, to protect rights, or to
+      investigate fraud or security issues.</p>
+    <h2>8. Security</h2>
+    <p>We implement commercially reasonable administrative, technical and physical safeguards to protect data. However,
+      no transmission over the Internet or method of storage is completely secure. We cannot guarantee absolute
+      security.</p>
+    <h2>9. Children</h2>
+    <p>The App is not directed to children under 13 (or the minimum age in your jurisdiction). We do not knowingly
+      collect personal information from children under 13. If you believe a child has provided personal information,
+      please contact us at <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a> and we will take
+      prompt steps to delete such information.</p>
+    <h2>10. Your rights (EEA/GDPR, UK and similar)</h2>
+    <ul>
+      <li>Access: request confirmation whether we process your personal data and a copy of such data;</li>
+      <li>Rectification: request correction of inaccurate data;</li>
+      <li>Erasure: request deletion of personal data we control (subject to legal limitations);</li>
+      <li>Restriction: request restriction of processing;</li>
+      <li>Data portability: request a copy of the personal data you provided to us in a structured, machine-readable
+        format;</li>
+      <li>Withdraw consent: where processing is based on consent, you may withdraw that consent;</li>
+      <li>Lodge a complaint with your local data protection authority.</li>
+    </ul>
+    <p>Because BubbleBabble does not collect personal data directly in most cases, many requests will involve data held
+      by third parties (e.g., Google). We will assist you by indicating what data we hold and, where feasible, help you
+      contact the third-party provider to exercise your rights.</p>
+    <p>To exercise your rights, contact us at: <a href="mailto:bubblebabbleapp@gmail.com">bubblebabbleapp@gmail.com</a>.
+      Please provide sufficient information to enable us to locate any relevant data (device details, approximate time
+      of use, description of request).</p>
+    <h2>11. International transfers</h2>
+    <p>Third-party providers (such as Google) may transfer and store data in countries outside your jurisdiction. These
+      transfers are governed by the providers&rsquo; privacy policies and applicable legal safeguards. By using the App
+      you consent to such transfers as described by the third parties.</p>
+    <h2>12. Changes to this Privacy Policy</h2>
+    <p>We may update this Privacy Policy periodically. The &ldquo;Last updated&rdquo; date at the top reflects the
+      effective date. If we make material changes, we will post the updated Policy and, where appropriate, notify users
+      via the App or other reasonable means.</p>
+    <h2>13. Subscriptions, payments and future features</h2>
+    <p>At the time of publication the App does not offer subscriptions or in-app purchases. If we introduce
+      subscriptions or other features that require collecting payment or additional personal data, we will update this
+      Privacy Policy before making those features available and will disclose what new data is collected and how it is
+      used.</p>
+    <h2>14. Third-party links</h2>
+    <p>The App may include links to third-party websites or content. We are not responsible for the privacy practices or
+      content of those sites. Review third-party privacy policies before providing any personal information.</p>
+    <h2>15. Contact</h2>
+    <p>For any questions, to exercise rights, or to report concerns, contact:<br /> <a
+        href="mailto:bubblebabbleapp@gmail.com"
+      >bubblebabbleapp@gmail.com</a></p>
+  </div>
 </body>
+
 </html>
